@@ -16,9 +16,11 @@ contract MyContract {
     function addPerson(
         string memory _firstName,
         string memory _lastName
-        ) public {
-            peopleCount += 1;
-            people[peopleCount] = Person(peopleCount, _firstName, _lastName);
+    )
+        public
+    {
+        peopleCount += 1;
+        people[peopleCount] = Person(peopleCount, _firstName, _lastName);
     }
 
 }
