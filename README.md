@@ -7,3 +7,4 @@ Solidity is a statically-typed programming language designed for developing smar
 Smart contracts are self-executing contracts where the terms are directly written into code.
 
 Documentation / Solidity - https://docs.soliditylang.org/en/v0.8.23/
+OpenZeppelin-solidity - https://github.com/ConsenSysMesh/openzeppelin-solidity
