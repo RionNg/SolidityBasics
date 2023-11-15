@@ -14,7 +14,6 @@ contract ERC20Token {
     function mint() virtual public {
         balances[tx.origin]++;
     }
-
 }
 
 
@@ -38,5 +37,4 @@ contract MyToken is ERC20Token {
         ownerCount++;
         owners.push(msg.sender);
     }
-
 }
