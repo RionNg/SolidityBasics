@@ -3,19 +3,16 @@
 pragma solidity ^0.8.22;
 
 contract ERC20Token {
-
     string public name;
     mapping(address => uint256) public balances;
 
     function mint() public {
         balances[tx.origin]++;
     }
-
 }
 
 
 contract MyContract {
-
     address payable wallet;
     address public token;
 
@@ -30,5 +27,4 @@ contract MyContract {
         // _token.mint();
         wallet.transfer(msg.value);
     }
-
 }
