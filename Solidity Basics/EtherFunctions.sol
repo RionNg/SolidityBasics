@@ -3,7 +3,6 @@
 pragma solidity ^0.8.22;
 
 contract MyContract {
-
     mapping(address => uint256) public balances;
     address payable wallet;
 
@@ -17,5 +16,4 @@ contract MyContract {
         //send ether to the wallet
         wallet.transfer(msg.value);
     }
-
 }
