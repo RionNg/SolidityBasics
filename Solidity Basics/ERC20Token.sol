@@ -3,7 +3,6 @@
 pragma solidity ^0.8.22;
 
 contract ERC20Token {
-
     string public name;
     mapping(address => uint256) public balances;
 
@@ -18,7 +17,6 @@ contract ERC20Token {
 
 
 contract MyToken is ERC20Token {
-
     string public symbol;
     address[] public owners;
     uint256 public ownerCount;
