@@ -35,5 +35,4 @@ contract MyContract {
     function incrementCount() internal {
             peopleCount += 1;
     }
-
 }
