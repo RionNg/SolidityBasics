@@ -23,5 +23,4 @@ contract MyContract {
         wallet.transfer(msg.value);
         emit Purchase(msg.sender, 1);
     }
-
 }
