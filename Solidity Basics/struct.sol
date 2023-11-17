@@ -21,5 +21,4 @@ contract MyContract {
         people.push(Person(_firstName, _lastName));
         peopleCount += 1;
     }
-
 }
