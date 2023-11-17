@@ -22,5 +22,4 @@ contract MyContract {
         peopleCount += 1;
         people[peopleCount] = Person(peopleCount, _firstName, _lastName);
     }
-
 }
